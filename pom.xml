@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.platform4j.arch</groupId>
+    <artifactId>platform4j-arch</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>platform4j-arch</name>
+    <packaging>pom</packaging>
+
+    <description>Platform4j Architecture Parent project</description>
+
+    <modules>
+        <module>arch-common</module>
+        <module>arch-domain</module>
+        <module>arch-base</module>
+        <module>arch-boot</module>
+        <module>arch-boot-web</module>
+        <module>arch-data</module>
+        <module>arch-redis</module>
+    </modules>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <jackson.version>1.9.13</jackson.version>
+        <log4j.version>1.2.14</log4j.version>
+        <springboot.version>2.3.5.RELEASE</springboot.version>
+        <spring.mongodb.version>1.7.0.RELEASE</spring.mongodb.version>
+        <commons.beanutils.version>1.9.4</commons.beanutils.version>
+        <dubbo.version>2.5.3</dubbo.version>
+        <aspectj.version>1.9.6</aspectj.version>
+        <zookeeper.version>3.3.3</zookeeper.version>
+        <zkclient.version>0.1</zkclient.version>
+        <mybatis.verion>3.2.8</mybatis.verion>
+        <mybatis-spring.version>1.2.2</mybatis-spring.version>
+        <spring.version>5.2.10.RELEASE</spring.version>
+        <mysql.version>5.1.18</mysql.version>
+        <druid.version>1.0.15</druid.version>
+        <kafka.version>0.8.2.2</kafka.version>
+        <commons.lang.version>2.6</commons.lang.version>
+        <jedis.version>2.7.0</jedis.version>
+        <lettuce.version>5.0.3.RELEASE</lettuce.version>
+        <spring.session.redis>2.3.1.RELEASE</spring.session.redis>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
