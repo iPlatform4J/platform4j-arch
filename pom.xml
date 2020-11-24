@@ -32,6 +32,7 @@
         <aspectj.version>1.9.6</aspectj.version>
         <zookeeper.version>3.3.3</zookeeper.version>
         <zkclient.version>0.1</zkclient.version>
+        <curator.version>2.7.0</curator.version>
         <mybatis.verion>3.2.8</mybatis.verion>
         <mybatis-spring.version>1.2.2</mybatis-spring.version>
         <spring.version>5.2.10.RELEASE</spring.version>
